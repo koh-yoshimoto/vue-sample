@@ -4,7 +4,7 @@
 ---
 `-d` オプションでコンテナをバックグラウンドで起動する
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 ### コンテナに接続する
@@ -12,7 +12,7 @@ docker-compose up -d
 ---
 コンテナ内に入る
 ```
-docker-compose exec app /bin/bash
+docker compose exec app /bin/bash
 ```
 
 ### プロジェクトを作成する
@@ -34,5 +34,5 @@ http://localhost:8080/ でアクセス
 
 ---
 ```
-docker-compose exec app yarn serve
+docker compose exec app yarn serve
 ```
