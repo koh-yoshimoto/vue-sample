@@ -1,6 +1,7 @@
 # Vue.js with Docker
 
 ### コンテナを起動する
+
 ---
 `-d` オプションでコンテナをバックグラウンドで起動する
 ```
@@ -12,7 +13,7 @@ docker compose up -d
 ---
 コンテナ内に入る
 ```
-docker compose exec app /bin/bash
+docker compose exec web /bin/bash
 ```
 
 ### プロジェクトを作成する
